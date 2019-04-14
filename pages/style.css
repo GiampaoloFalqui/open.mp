@@ -57,6 +57,16 @@ hr {
   opacity: 0.2;
 }
 
+.questions .title {
+  text-align: center;
+}
+
+ol li a {
+  font-size: 1.2em;
+  color: #c1dcff;
+  font-weight: 600;
+}
+
 .icon {
   padding-left: 20px;
   padding-right: 20px;

@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "next/head";
+import Link from "next/link";
 
 import Wordmark from "./icons/Wordmark";
 import Discord from "./icons/Discord";
@@ -39,6 +40,30 @@ const Index = () => (
             </a>
           </span>
         </p>
+      </section>
+      <section className="questions">
+        <h2 className="title">Frequently Asked Questions</h2>
+        <ol>
+          <li><Link href="#what-differences-there-will-be"><a>What differences there will be?</a></Link></li>
+          <li><Link href="#when-will-it-be-released"><a>When will it be released?</a></Link></li>
+        </ol>
+        <hr />
+        <section className="answers">
+          <ul>
+            <li>
+              <a id="what-differences-there-will-be">
+                <h3>What differences there will be?</h3>
+              </a>
+              <p>Text</p>
+            </li>
+            <li>
+              <a id="when-will-it-be-released">
+                <h3>When will it be released?</h3>
+              </a>
+              <p>Text</p>
+            </li>
+          </ul>
+        </section>
       </section>
     </main>
   </div>
